@@ -1,0 +1,100 @@
+@font-face {
+    font-family: norse;
+    src: url(/Norse-Bold.otf);
+  }
+*{
+    margin:0;
+    padding:0;
+    font-family: '';
+}
+body{
+    margin: 0%;
+    height: 100vh;
+    font-size: 20px;
+}
+.container{
+    background-color: lightgray;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+footer{
+    position: absolute;
+    font-size: 20px;
+    width: 100%;
+    top: 95%;
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    top: 15%;
+}
+.logo img{
+    width: 150px;
+}
+.bg{
+    background-image: url('./signupformbg.jpg');
+    position: relative;
+    color: white;
+    background-position: center;
+    background-size: auto;
+    width: 30vw;
+}
+.Sign-Up{
+    margin: auto;
+    background-color: lightgray;
+    width: 70vw;
+}
+.con{
+    padding-left: 3vw;
+}
+.form{
+    background-color: white;
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 3vw;
+    gap: 50px; /* seperation between form item vertically*/
+    box-shadow: 0px 0px 10px gray;
+}
+.form p{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+}
+.row{
+    display: flex;
+    gap: 50px; /* seperation between form item horizontally */
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin-bottom: 30px;
+    background-color: #596D48;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+input{
+    border-color: #E5E7EB;
+    width: 20em;
+    font-size: 20px;
+    height: 1.5em;
+    border-radius: 5px;
+}
+input:invalid{
+    border-color:;
+}   
+p{
+    margin: 0%;
+}

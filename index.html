@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = 'stylesheet' href = 'style.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <script src="main.js"></script>
+    <div class = 'container'>
+        <div class = 'bg'>
+            <div class = 'logo'>
+                <img src = 'odinlogo.png'><span style = 'font-family: "norse";font-size: 100px;'>ODIN</span>
+            </div>
+            <footer>Photo by <span style="text-decoration:underline">Halie West</span> on <span style="text-decoration:underline">Unsplash</span></footer>
+        </div>
+        <div class = 'Sign-Up'>
+            <form action = 'index.html' method="get">
+                <div class = 'form'>
+                    <p>Let's Do This!</p>
+                    <div class = 'form-item'>
+                        <label for='first_name'>First Name</label>
+                        <input type="text" min = '2' name = 'first_name' required id = 'first_name'></input>
+                    </div>
+                    <div class = 'form-item'>
+                        <label for='Last_name'>Last Name</label>
+                        <input type="text" min = '2' name = 'Last_name' required id = 'Last_name'></input>
+                    </div>
+                    <div class = 'form-item'>
+                        <label for='email'>Email</label>
+                        <input type="email" name = 'email' id = 'email' required></input>
+                    </div>
+                    <div class = 'form-item'>
+                        <label for='phonenumber'>Phone Number</label>
+                        <input type="text" pattern="^[0-9-+\s()]*$" required name = 'phonenumber' id = 'phonenumber'></input>
+                    </div>
+                    <div class = 'form-item'>
+                        <label for='password'>Password</label>
+                        <input type="password" name = 'password' required id = 'password'></input>
+                    </div>
+                    <div class = 'form-item'>
+                        <label for='passwordc'>Password Confirmation</label>
+                        <input type="password" name = 'passwordc' required id = 'passwordc'></input>
+                    </div>
+                </div>
+                <div style = 'margin-top: 60px;padding-left:3vw;background-color: lightgray;'>
+                    <button type = 'submit' action ='index.html'>Create Account</button>
+                    <p> Already have an account? <a style = 'color: #596D48;'>Sign in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
